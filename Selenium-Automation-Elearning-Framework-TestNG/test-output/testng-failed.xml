@@ -6,6 +6,20 @@
       <class name="com.training.sanity.tests.PasswordReset"/>
       <class name="com.training.sanity.tests.LoginTests"/>
       <class name="com.training.sanity.tests.SignUP"/>
+      <class name="com.training.sanity.tests.Coursecatalog2"/>
+      <class name="com.training.sanity.tests.Coursecatalog1"/>
     </classes>
   </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.training.sanity.tests.Coursecatalog2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUpBeforeClass"/>
+          <include name="coursecatalog1"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.training.sanity.tests.Coursecatalog2 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

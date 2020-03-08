@@ -51,7 +51,7 @@ public class PasswordReset {
 	//	}
 		
 		//hellosuneel
-		@Test(enabled=true)
+		@Test(enabled=false)
 		public void validLoginTest() {
 			
 			PasswordresetPOM.PasswordresetBtn();
